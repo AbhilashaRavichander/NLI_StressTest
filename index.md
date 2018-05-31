@@ -23,11 +23,13 @@ You can find more about our stress tests in our paper [here](link to paper)
 
 ## Stress Tests
 
-Stress Tests are downloadable [here](https://drive.google.com/open?id=1faGA5pHdu5Co8rFhnXn-6jbBYC2R1dhw)
+Stress Tests are downloadable [here](https://drive.google.com/open?id=1faGA5pHdu5Co8rFhnXn-6jbBYC2R1dhw).
 
 ## Evaluation Script
 
 ## Confusion Matrices
+
+Confusion Matrices for experiments described in the paper are available [here](https://drive.google.com/file/d/1SiOZz_VyJO9zPbBDAu6WIN4RVYwj5Q1T/view?usp=sharing) . Confusion matrices are very useful for further insights into types of errors made by systems. 
 
 ## Aggregate Statistics of Sentence Encoder Models
 (Last Updated: May 31, 2018)
