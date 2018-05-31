@@ -11,6 +11,10 @@ premise in a justifiable manner. This requires a model to make the 3-way decisio
 
 Stress tests offer sanity checks for Natural Language Inference models. 
 
+Neural models perform well on standard datasets for NLI.  Few “difficult” cases in traditional evaluation can result in an optimistic estimate of model performance. We would like an evaluation that rewards a systems ability to make real inferential decisions instead of pattern-matching behaviour. We would also like to correlate model errors to well-defined phenomena to understand strengths and weaknesses. Stress tests provide such a phenomenon-by-phenomemon evaluation.
+
+We recommend that these stress tests be used to supplement traditional evaluation on the MultiNLI dataset.
+
 ### What Stress Tests Do You Currently Support?
 
 We currently support six stress tests : antonymy, numerical reasoning, word overlap, negation, length mismatch and noise.
