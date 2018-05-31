@@ -9,7 +9,7 @@ premise in a justifiable manner. This requires a model to make the 3-way decisio
 
 ### Why Should I Use Stress Tests?
 
-
+Stress tests offer sanity checks for Natural Language Inference models. 
 
 ### What Stress Tests Do You Currently Support?
 
@@ -23,7 +23,7 @@ You can find more about our stress tests in our paper [here](link to paper)
 
 ## Stress Tests
 
-Stress Tests are downloadable [here]()
+Stress Tests are downloadable [here](https://drive.google.com/open?id=1faGA5pHdu5Co8rFhnXn-6jbBYC2R1dhw)
 
 ## Evaluation Script
 
@@ -33,6 +33,8 @@ Stress Tests are downloadable [here]()
 (Last Updated: May 31, 2018)
 
 Aggregate classification performance on six-sentence encoder models described in the paper on MultiNLI Dev and Stress Tests.
+
+
 ![Image](https://preview.ibb.co/bzFV0y/meta_chart_6.png)
 
 ### Markdown
