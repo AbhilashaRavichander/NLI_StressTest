@@ -31,6 +31,9 @@ Stress Tests are downloadable [here](https://drive.google.com/open?id=1faGA5pHdu
 
 ## Evaluation Script
 
+If you want to directly evaluate your system on all stress tests at once you can. 
+You will need to report your predictions on the test file found [here](https://drive.google.com/file/d/1Gw3YgA63rFMqAEpzDtO0PKFJ3WsHPQ5d/view?usp=sharing) in the same format as the sample submission file found [here](https://drive.google.com/file/d/18r2lb0sU_YmOZ1mRjHdtyFhsfADD4Qje/view?usp=sharing)
+
 ## Confusion Matrices
 
 Confusion Matrices for experiments described in the paper are available [here](https://drive.google.com/file/d/1SiOZz_VyJO9zPbBDAu6WIN4RVYwj5Q1T/view?usp=sharing) . Confusion matrices are very useful for further insights into types of errors made by systems. 
