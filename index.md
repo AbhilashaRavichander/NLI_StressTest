@@ -32,7 +32,7 @@ Stress Tests are downloadable [here]()
 ## Aggregate Statistics of Sentence Encoder Models
 (Last Updated: May 31, 2018)
 
-![Image](https://ibb.co/nAYHfy)
+![Image](https://preview.ibb.co/bzFV0y/meta_chart_6.png)
 
 ### Markdown
 
