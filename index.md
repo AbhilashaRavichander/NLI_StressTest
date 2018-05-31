@@ -32,6 +32,7 @@ Stress Tests are downloadable [here]()
 ## Aggregate Statistics of Sentence Encoder Models
 (Last Updated: May 31, 2018)
 
+Aggregate classification performance on six-sentence encoder models described in the paper on MultiNLI Dev and Stress Tests.
 ![Image](https://preview.ibb.co/bzFV0y/meta_chart_6.png)
 
 ### Markdown
