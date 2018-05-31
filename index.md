@@ -13,15 +13,17 @@ premise in a justifiable manner. This requires a model to make the 3-way decisio
 
 ### What Stress Tests Do You Currently Support?
 
-We currently support six stress tests : antonymy, numerical reasoning, word overlap, negation, length mismatch and noise
+We currently support six stress tests : antonymy, numerical reasoning, word overlap, negation, length mismatch and noise.
 
 ### Where Can I Find Out More About Stress Tests?
 
-You can find more about our stress tests [here](link to paper)
+You can find more about our stress tests in our paper [here](link to paper)
 
 ## Paper
 
 ## Stress Tests
+
+Stress Tests are downloadable [here]()
 
 ## Evaluation Script
 
@@ -29,6 +31,8 @@ You can find more about our stress tests [here](link to paper)
 
 ## Aggregate Statistics of Sentence Encoder Models
 (Last Updated: May 31, 2018)
+
+![Image](https://ibb.co/nAYHfy)
 
 ### Markdown
 
