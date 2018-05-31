@@ -1,7 +1,7 @@
 ## What is Natural Language Inference?
 
 Natural language inference (NLI) is the task of determining if a natural language hypothesis can be inferred from a given
-premise in a justifiable manner. This requires a model to make the 3-way decision of whether a hypothesis is true given the premise (entailment), false given the premise (contradiction), or whether the truth value cannot be determined (neutral). The MultiNLI corpus corpus is a large-scale dataset for Natural Language Inference featuring premise-hypothesis pairs from ten different genres of text. Youc an learn more about it [here](http://www.nyu.edu/projects/bowman/multinli/), and about the repeval shared task [here](https://repeval2017.github.io/shared/) which evaluated models which formed sentence-representations on the Natural language Inference task.
+premise in a justifiable manner. This requires a model to make the 3-way decision of whether a hypothesis is true given the premise (entailment), false given the premise (contradiction), or whether the truth value cannot be determined (neutral). The MultiNLI corpus is a large-scale dataset for Natural Language Inference featuring premise-hypothesis pairs from ten different genres of text. Youc an learn more about it [here](http://www.nyu.edu/projects/bowman/multinli/), and about the RepEval shared task [here](https://repeval2017.github.io/shared/) which evaluated models that formed sentence-representations on the Natural language Inference task.
 
 ## What are Stress Tests for Natural Language Inference?
 
@@ -13,8 +13,16 @@ premise in a justifiable manner. This requires a model to make the 3-way decisio
 
 ## Where Can I Find Out More About Stress Tests?
 
+## Paper
 
+## Stress Tests
 
+## Evaluation Script
+
+## Confusion Matrices
+
+## Aggregate Statistics of Sentence Encoder Models
+(Last Updated: May 31, 2018)
 
 ### Markdown
 
