@@ -42,18 +42,6 @@ You can evaluate your models on the development set as well as all stress tests 
 	python eval.py --eval_file SUBMISSION_FILE > REPORT_FILE.txt
   
 
-## Citing
-
-If you use these stress tests for NLI research, please consider citing our work as follows:
-@inproceedings{naik18coling,
-    title = {Stress Test Evaluation for Natural Language Inference},
-    author = {Aakanksha Naik and Abhilasha Ravichander and Norman Sadeh and Carolyn Rose and Graham Neubig},
-    booktitle = {The 27th International Conference on Computational Linguistics (COLING)},
-    address = {Santa Fe, New Mexico, USA},
-    month = {August},
-    year = {2018}
-}
-
 ## Confusion Matrices
 
 Confusion Matrices for experiments described in the paper are available [here](https://drive.google.com/file/d/1SiOZz_VyJO9zPbBDAu6WIN4RVYwj5Q1T/view?usp=sharing) . Confusion matrices are very useful for further insights into types of errors made by systems. 
@@ -65,3 +53,15 @@ Aggregate classification performance on six-sentence encoder models described in
 
 
 ![Image](https://preview.ibb.co/bzFV0y/meta_chart_6.png)
+
+## Citing
+
+If you use these stress tests for NLI research, please consider citing our work as follows:
+@inproceedings{naik18coling,
+    title = {Stress Test Evaluation for Natural Language Inference},
+    author = {Aakanksha Naik and Abhilasha Ravichander and Norman Sadeh and Carolyn Rose and Graham Neubig},
+    booktitle = {The 27th International Conference on Computational Linguistics (COLING)},
+    address = {Santa Fe, New Mexico, USA},
+    month = {August},
+    year = {2018}
+}
