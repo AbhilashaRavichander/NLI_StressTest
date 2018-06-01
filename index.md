@@ -32,7 +32,27 @@ Stress Tests are downloadable [here](https://drive.google.com/open?id=1faGA5pHdu
 ## Evaluation Script
 
 If you want to directly evaluate your system on all stress tests at once you can. 
-You will need to report your predictions on the test file found [here](https://drive.google.com/file/d/1Gw3YgA63rFMqAEpzDtO0PKFJ3WsHPQ5d/view?usp=sharing) in the same format as the sample submission file found [here](https://drive.google.com/file/d/18r2lb0sU_YmOZ1mRjHdtyFhsfADD4Qje/view?usp=sharing)
+ in the same format as the sample submission file found [here](https://drive.google.com/file/d/18r2lb0sU_YmOZ1mRjHdtyFhsfADD4Qje/view?usp=sharing).
+
+
+You can evaluate your models on the development set as well as all stress tests through a single command. Usage is as follows-
+1. You will need to report your predictions on the test file found [here](https://drive.google.com/file/d/1Gw3YgA63rFMqAEpzDtO0PKFJ3WsHPQ5d/view?usp=sharing)
+2. Write out model predictions as "prediction" field for each sample in the evaluation set. (Sample submission files are available as [sample_submission.jsonl]((https://drive.google.com/file/d/18r2lb0sU_YmOZ1mRjHdtyFhsfADD4Qje/view?usp=sharing) and [sample_submission.txt](https://drive.google.com/file/d/14MbtSB-G6RZ87hJNX9AS3I5cVSfz7PDh/view?usp=sharing)
+3. Run the [evaluation script](https://github.com/AbhilashaRavichander/NLI_StressTest/blob/master/eval.py) with the command
+	python eval.py --eval_file SUBMISSION_FILE > REPORT_FILE.txt
+  
+
+## Citing
+
+If you use these stress tests for NLI research, please consider citing our work as follows:
+@inproceedings{naik18coling,
+    title = {Stress Test Evaluation for Natural Language Inference},
+    author = {Aakanksha Naik and Abhilasha Ravichander and Norman Sadeh and Carolyn Rose and Graham Neubig},
+    booktitle = {The 27th International Conference on Computational Linguistics (COLING)},
+    address = {Santa Fe, New Mexico, USA},
+    month = {August},
+    year = {2018}
+}
 
 ## Confusion Matrices
 
