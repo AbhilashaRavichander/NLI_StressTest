@@ -28,6 +28,7 @@ We currently support six stress tests : antonymy, numerical reasoning, word over
 You can find more about our stress tests in our paper [here](link to paper)
 
 ## Paper
+Out paper ["Stress Test Evaluation for Natural Language Inference"](link to paper)
 
 ## Stress Tests
 
