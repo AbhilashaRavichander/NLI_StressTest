@@ -57,6 +57,7 @@ Aggregate classification performance on six-sentence encoder models described in
 ## Citing
 
 If you use these stress tests for NLI research, please consider citing our work as follows:
+
 @inproceedings{naik18coling,
     title = {Stress Test Evaluation for Natural Language Inference},
     author = {Aakanksha Naik and Abhilasha Ravichander and Norman Sadeh and Carolyn Rose and Graham Neubig},
