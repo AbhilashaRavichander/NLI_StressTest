@@ -19,7 +19,7 @@ We recommend that these stress tests be used to supplement traditional evaluatio
 
 We currently support six stress tests : antonymy, numerical reasoning, word overlap, negation, length mismatch and noise.
 
-### Where Can I Find Out More About Stress Tests?
+### Where Can I Find Out More About Stress Tests for Natural Language Inference?
 
 You can find more about our stress tests in our paper [here](link to paper)
 
