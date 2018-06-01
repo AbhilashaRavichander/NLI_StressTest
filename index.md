@@ -66,3 +66,7 @@ If you use these stress tests for NLI research, please consider citing our work 
     month = {August},
     year = {2018}
 }
+
+## Contact
+
+Please get in touch with us for any questions/issues at aravicha@cs.cmu.edu or anaik@cs.cmu.edu .
