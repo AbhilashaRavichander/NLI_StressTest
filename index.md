@@ -1,11 +1,15 @@
 ### What is Natural Language Inference?
 
 Natural language inference (NLI) is the task of determining if a natural language hypothesis can be inferred from a given
-premise in a justifiable manner. This requires a model to make the 3-way decision of whether a hypothesis is true given the premise (entailment), false given the premise (contradiction), or whether the truth value cannot be determined (neutral). The MultiNLI corpus is a large-scale dataset for Natural Language Inference featuring premise-hypothesis pairs from ten different genres of text. You can learn more about it [here](http://www.nyu.edu/projects/bowman/multinli/), and about the RepEval shared task [here](https://repeval2017.github.io/shared/) which evaluated models that formed sentence-representations on the Natural language Inference task.
+premise in a justifiable manner. This requires a model to make the 3-way decision of whether a hypothesis is true given the premise (entailment), false given the premise (contradiction), or whether the truth value cannot be determined (neutral).
+
+The MultiNLI corpus is a large-scale dataset for Natural Language Inference featuring premise-hypothesis pairs from ten different genres of text. You can learn more about it [here](http://www.nyu.edu/projects/bowman/multinli/), and about the RepEval shared task [here](https://repeval2017.github.io/shared/) which evaluated models that formed sentence-representations on the Natural language Inference task.
 
 ### What are Stress Tests for Natural Language Inference?
 
-[Stress testing](https://en.wikipedia.org/wiki/Stress_testing) is a methodology where systems are tested beyond normal operational capacity in order to confirm that intended specifications are being met and identify weaknesses. For Natural Language Inference, our stress tests are large-scale automatically constructed suites of datasets which evaluate systems on a phenomenon-by-phenomenon basis. Each evaluation set focuses on a single phenomenon so as to not introduce confounding factors, thereby providing a testbed for fine-grained evaluation and analysis.
+[Stress testing](https://en.wikipedia.org/wiki/Stress_testing) is a methodology where systems are tested beyond normal operational capacity in order to confirm that intended specifications are being met and identify weaknesses.
+
+For Natural Language Inference, our stress tests are large-scale automatically constructed suites of datasets which evaluate systems on a phenomenon-by-phenomenon basis. Each evaluation set focuses on a single phenomenon so as to not introduce confounding factors, thereby providing a testbed for fine-grained evaluation and analysis.
 
 ### Why Should I Use Stress Tests?
 
