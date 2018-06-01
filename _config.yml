@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: Stress Test Evaluation for Natural Language Inference
-is_project_page: false
+github:
+  is_project_page: false
