@@ -39,7 +39,7 @@ Stress Tests are downloadable [here](https://drive.google.com/open?id=1faGA5pHdu
 If you want to directly evaluate your system on all stress tests at once you can. 
  Usage is as follows-
 1. You will need to report your predictions on the test file found [here](https://drive.google.com/file/d/1Gw3YgA63rFMqAEpzDtO0PKFJ3WsHPQ5d/view?usp=sharing)
-2. Write out model predictions as "prediction" field for each sample in the evaluation set. (Sample submission files are available as [sample_submission.jsonl](https://drive.google.com/file/d/18r2lb0sU_YmOZ1mRjHdtyFhsfADD4Qje/view?usp=sharing) and [sample_submission.txt](https://drive.google.com/file/d/14MbtSB-G6RZ87hJNX9AS3I5cVSfz7PDh/view?usp=sharing)
+2. Write out model predictions as "prediction" field for each sample in the evaluation set. (Sample submission files are available as [sample_submission.jsonl](https://drive.google.com/file/d/18r2lb0sU_YmOZ1mRjHdtyFhsfADD4Qje/view?usp=sharing) and [sample_submission.txt](https://drive.google.com/file/d/14MbtSB-G6RZ87hJNX9AS3I5cVSfz7PDh/view?usp=sharing))
 3. Run the [evaluation script](https://github.com/AbhilashaRavichander/NLI_StressTest/blob/master/eval.py) with the command
 	python eval.py --eval_file SUBMISSION_FILE > REPORT_FILE.txt
   
