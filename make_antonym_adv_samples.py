@@ -26,8 +26,8 @@ args = parser.parse_args()
 base_dir = args.base_dir
 
 '''Replace with local paths'''
-dev_data = dp.load_nli_data(base_dir + "/multinli_0.9/multinli_0.9_dev_mismatched.jsonl")
-test_data = dp.load_nli_data(base_dir + "/multinli_0.9/multinli_0.9_dev_matched.jsonl")
+dev_data = dp.load_nli_data(base_dir + "/multinli_0.9_dev_mismatched.jsonl")
+test_data = dp.load_nli_data(base_dir + "/multinli_0.9_dev_matched.jsonl")
 
 premise_hypothesis_pairs = []
 
