@@ -2,7 +2,7 @@
 
 This repository contains all resources related to the paper "Stress Test Evaluation for Natural Language Inference". For more information, visit https://abhilasharavichander.github.io/NLI_StressTest/
 
-This repository contains the code used to automatically generate word overlap, negation, length mismatch, antonym, noise and numerical reasoning stress tests as described in the paper [[1]]
+This repository contains the code used to automatically generate word overlap, negation, length mismatch, antonym, noise and numerical reasoning stress tests as described in the paper [[1]]. These stress tests are already generated, and can directly be downloaded at  https://abhilasharavichander.github.io/NLI_StressTest/. 
 
 ## Competence Tests
 1. gen_num_test.py, quant_ner.py: These files are used to perform the preprocessing steps (such as splitting word problems into sentences, removing sentences with long rationales and removing sentences which do not contain named entities) and create a set of useful premise sentences for the quantitative reasoning stress test
@@ -11,8 +11,9 @@ This repository contains the code used to automatically generate word overlap, n
 ### How to Run
 
 Numerical Reasoning:
-1. Run python gen_num_test.py INPUT_FILE OUTPUT_FILE, python quant_ner.py
-2. python quant_example_gen.py
+1. Run python gen_num_test.py INPUT_FILE OUTPUT_FILE
+2. Run python quant_ner.py
+3. Run python quant_example_gen.py
 
 Antonyms
 1. Run python make_antonym_adv_samples.py --base_dir MULTINLI_DIRECTORY
@@ -25,7 +26,7 @@ Antonyms
 ### How to Run
 
 How to run the code:
-1. python make_negation_control_adv_samples_jsonl.py <sentence to be appended> <input file> <output file> ( this file needs the data_preprocessing.py file provided by MultiNLI creators to run)
+1. Run python make_negation_control_adv_samples_jsonl.py TAUTOLOGY INPUT_FILE OUTPUT_FILE ( this file needs the data_preprocessing.py file provided by MultiNLI creators to run)
 
 
 The generated stress tests are also available at: https://abhilasharavichander.github.io/NLI_StressTest/
