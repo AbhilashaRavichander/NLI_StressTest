@@ -6,6 +6,7 @@ This repository contains the code used to automatically generate word overlap, n
 ## Competence Tests
 1. gen_num_test.py, quant_ner.py: These files are used to perform the preprocessing steps (such as splitting word problems into sentences, removing sentences with long rationales and removing sentences which do not contain named entities) and create a set of useful premise sentences for the quantitative reasoning stress test
 2. quant_example_gen.py: This file uses the set of useful premise sentences generated after preprocessing to create entailed, contradictory and neutral hypotheses for the quantitative reasoning stress test
+3. make_antonym_adv_samples.py: This file contains the code to sample sentences from the MultiNLI development set as possible premises and generate contradicting hypotheses.
 
 ### How to Run
 
