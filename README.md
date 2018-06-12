@@ -8,7 +8,7 @@ This repository contains all resources related to the paper "Stress Test Evaluat
 
 Please considering citing [[1]](https://arxiv.org/abs/1806.00692) if using these stress tests to evaluate Natural Language Inference models.
 
-### What you can cram into a single vector: Probing sentence embeddings for linguistic properties (ACL 2018)
+### Stress Test Evaluation for Natural Language Inference (COLING 2018)
 
 [1] A. Naik, A. Ravichander, N. Sadeh, C. Rose, G.Neubig, [*Stress Test Evaluation for Natural Language Inference*](https://arxiv.org/abs/1806.00692)
 
