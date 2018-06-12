@@ -27,6 +27,11 @@ test_data = dp.load_nli_data(base_dir + "/multinli_0.9/multinli_0.9_dev_matched.
 premise_hypothesis_pairs = []
 
 
+def tokenize(string):
+    string = re.sub(r'\(|\)', '', string)
+    return string.lower().split()
+
+
 def construct_example(sentence, example, flag):
     all_examples = []
     seen_premise_hypothesis = []
@@ -79,11 +84,6 @@ def construct_example(sentence, example, flag):
 
                         all_examples.append(new_example)
     return all_examples
-
-
-def tokenize(string):
-    string = re.sub(r'\(|\)', '', string)
-    return string.lower().split()
 
 
 def get_antonym_extensions(example):
