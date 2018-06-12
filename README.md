@@ -11,10 +11,11 @@ This repository contains the code used to automatically generate word overlap, n
 ### How to Run
 
 Numerical Reasoning:
-1. Run python gen_num_test.py <input file> <output file>, python quant_ner.py
+1. Run python gen_num_test.py INPUT_FILE OUTPUT_FILE, python quant_ner.py
 2. python quant_example_gen.py
 
 Antonyms
+1. Run python make_antonym_adv_samples.py --base_dir MULTINLI_DIRECTORY
 
 ## Distraction Tests
 1. make_negation_control_adv_samples_jsonl.py: This file generates the word overlap, negation and length mismatch tests
