@@ -1,6 +1,5 @@
 # NLI_StressTest
 
-This repository contains all resources related to the paper "Stress Test Evaluation for Natural Language Inference". For more information, visit https://abhilasharavichander.github.io/NLI_StressTest/
 
 This repository contains the code used to automatically generate word overlap, negation, length mismatch, antonym, noise and numerical reasoning stress tests as described in the paper [[1]]. These stress tests are already generated, and can directly be downloaded at  https://abhilasharavichander.github.io/NLI_StressTest/. 
 
