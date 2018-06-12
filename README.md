@@ -28,6 +28,10 @@ How to run the code:
 
 
 ## Noise Tests
+1. make_grammar_adv_samples_jsonl.py : Noise test, file generates premise-hypothesis pairs with a word perturbed by a keyboard swap spelling error.
+
+### How to Run
+1. Run python make_grammar_adv_samples_jsonl.py --base_dir MULTINLI_DIRECTORY 
 
 The generated stress tests are also available at: https://abhilasharavichander.github.io/NLI_StressTest/
 
