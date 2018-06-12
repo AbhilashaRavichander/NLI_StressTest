@@ -15,6 +15,11 @@ from nltk.wsd import lesk
 import jsonlines
 import argparse
 
+def tokenize(string):
+    string = re.sub(r'\(|\)', '', string)
+    return string.lower().split()
+
+# Load data
 parser = argparse.ArgumentParser(description='Directory with MultiNLI datasets')
 parser.add_argument('--base_dir', dest='base_dir', help='Directory with MultiNLI datasets')
 args = parser.parse_args()
@@ -25,12 +30,6 @@ dev_data = dp.load_nli_data(base_dir + "/multinli_0.9/multinli_0.9_dev_mismatche
 test_data = dp.load_nli_data(base_dir + "/multinli_0.9/multinli_0.9_dev_matched.jsonl")
 
 premise_hypothesis_pairs = []
-
-
-def tokenize(string):
-    string = re.sub(r'\(|\)', '', string)
-    return string.lower().split()
-
 
 def construct_example(sentence, example, flag):
     all_examples = []
@@ -136,7 +135,6 @@ def construct_adv(datasets):
     return all_new_datasets
 
 
-# (dev_data)
 all_new_datasets = construct_adv([dev_data, test_data])
 
 fp = open("./antonym_mismatched.json", "wb")
