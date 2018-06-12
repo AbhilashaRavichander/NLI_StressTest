@@ -19,15 +19,15 @@ Antonyms
 1. Run python make_antonym_adv_samples.py --base_dir MULTINLI_DIRECTORY
 
 ## Distraction Tests
-1. make_negation_control_adv_samples_jsonl.py: This file generates the word overlap, negation and length mismatch tests
-
-## Noise Tests
+1. make_distraction_adv_samples_jsonl.py: This file generates the word overlap, negation and length mismatch tests
 
 ### How to Run
 
 How to run the code:
-1. Run python make_negation_control_adv_samples_jsonl.py TAUTOLOGY INPUT_FILE OUTPUT_FILE ( this file needs the data_preprocessing.py file provided by MultiNLI creators to run)
+1. Run python make_distraction_adv_samples_jsonl.py TAUTOLOGY_STRING INPUT_FILE OUTPUT_FILE ( this file needs the data_preprocessing.py file provided by MultiNLI creators to run)
 
+
+## Noise Tests
 
 The generated stress tests are also available at: https://abhilasharavichander.github.io/NLI_StressTest/
 
