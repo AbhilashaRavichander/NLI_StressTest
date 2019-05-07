@@ -1,5 +1,4 @@
 import glob
-import jsonlines
 import argparse
 import matplotlib.pyplot as plt
 import numpy as np
@@ -124,15 +123,16 @@ if __name__ == "__main__":
 
     results_dict = {}
     if eval_file.endswith("jsonl"):
-        input = open(eval_file)
-        for line in input:
-            obj = json.loads(line)
-            if obj["source"] not in results_dict:
-                results_dict[obj["source"]] = {"total": 0.0, "correct": 0.0, "accuracy": 0.0}
-            if "prediction" in obj:
-                if obj["prediction"] == obj["gold_label"]:
-                    results_dict[obj["source"]]["correct"] += 1
-            results_dict[obj["source"]]["total"] += 1
+        with open(eval_file) as f:
+            json_line = f.readline().strip()
+        obj = json.loads(json_line)
+        for line in obj:
+            if line["source"] not in results_dict:
+                results_dict[line["source"]] = {"total": 0.0, "correct": 0.0, "accuracy": 0.0}
+            if "prediction" in line:
+                if line["prediction"] == line["gold_label"]:
+                    results_dict[line["source"]]["correct"] += 1
+            results_dict[line["source"]]["total"] += 1
 
     for each_key in results_dict:
         results_dict[each_key]["accuracy"] = round(
