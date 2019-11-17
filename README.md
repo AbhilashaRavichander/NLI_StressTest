@@ -48,6 +48,8 @@ If you want to directly evaluate your system on all stress tests at once you can
 3. Run the [evaluation script](https://github.com/AbhilashaRavichander/NLI_StressTest/blob/master/eval.py) with the command
 	python eval.py --eval_file SUBMISSION_FILE > REPORT_FILE.txt
 
+Alternatively, you may write your own evaluation function: our script simply evaluates models on classification accuracy for each stress test at once.
+
 ## References
 
 Please considering citing [[1]](https://arxiv.org/abs/1806.00692) if using these stress tests to evaluate Natural Language Inference models.
