@@ -6,7 +6,7 @@ For Natural Language Inference, our stress tests are large-scale automatically c
 
 Stress tests for word overlap, negation, length mismatch, antonym, noise and numerical reasoning stress tests as described in the paper [[1]](https://arxiv.org/abs/1806.00692) can directly be downloaded  [here](https://drive.google.com/file/d/1faGA5pHdu5Co8rFhnXn-6jbBYC2R1dhw/view). You can also find other resources related to this work on our [website](https://abhilasharavichander.github.io/NLI_StressTest/). 
 
-This repository contains the code used to automatically generate stress tests for word overlap, negation, length mismatch, antonym, spelling error and numerical reasoning, intended to help generate stress tests for _new_ data. To evaluate your models, please use the [generated stess tests](https://abhilasharavichander.github.io/NLI_StressTest/). 
+This repository contains the code used to automatically generate stress tests for word overlap, negation, length mismatch, antonym, spelling error and numerical reasoning, intended to help generate stress tests for _new_ data. To evaluate your models, please use the generated [stress tests](https://abhilasharavichander.github.io/NLI_StressTest/). 
 
 ## Competence Tests
 1. gen_num_test.py, quant_ner.py: These files are used to perform the preprocessing steps (such as splitting word problems into sentences, removing sentences with long rationales and removing sentences which do not contain named entities) and create a set of useful premise sentences for the quantitative reasoning stress test
